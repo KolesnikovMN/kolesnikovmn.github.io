@@ -1,0 +1,41 @@
+@import url('blocks/header.css');
+@import url('blocks/contact-slider.css');
+@import url('blocks/services.css');
+@import url('blocks/clients.css');
+@import url('blocks/our-team.css');
+@import url('blocks/footer.css');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.page {
+    padding-top: 79px;
+    padding-bottom: 40px;
+    margin-left: 33px;
+    position: relative;
+}
+
+.page h2 {
+    position: absolute;
+    top: -25px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #c2c2c2;
+}
+
+.page-top {
+    border-top: 1px solid #c2c2c2;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1212px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
